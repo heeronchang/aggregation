@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>common</module>
-        <module>pojo</module>
+        <module>pojo</module>e
         <module>service</module>
         <module>api</module>
     </modules>
