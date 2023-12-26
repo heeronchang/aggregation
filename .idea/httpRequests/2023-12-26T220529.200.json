@@ -1,0 +1,18 @@
+{
+  "status": 200,
+  "msg": "OK",
+  "data": {
+    "id": "231226GRB6HZ744H",
+    "username": "heeron",
+    "password": "4QrcOUm6Wau+VuBX8g+IPg==",
+    "nickname": "heeron",
+    "realname": null,
+    "face": "https://avatar.com/theone",
+    "mobile": null,
+    "email": null,
+    "sex": 1,
+    "birthday": "1990-12-31T16:00:00.000+00:00",
+    "createdTime": "2023-12-26T14:05:18.464+00:00",
+    "updatedTime": "2023-12-26T14:05:18.464+00:00"
+  }
+}

@@ -1,0 +1,52 @@
+POST http://localhost:9000/passport/register
+Content-Type: application/json
+Content-Length: 81
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "confirmPassword": "123456",
+  "password": "123456",
+  "username": "heeron"
+}
+
+<> 2023-12-26T220529.200.json
+
+###
+
+POST http://localhost:9000/passport/register
+Content-Type: application/json
+Content-Length: 81
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "confirmPassword": "123456",
+  "password": "123456",
+  "username": "heeron"
+}
+
+<> 2023-12-26T220027.500.json
+
+###
+
+GET http://localhost:9000/passport/usernameIsExist?username=heeron
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-25T232550.200.json
+
+###
+
+GET http://localhost:9000/passport/usernameIsExist?username=heeron
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-25T230656.200.json
+
+###
+
