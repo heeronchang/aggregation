@@ -4,83 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe84854b-48a3-4919-bd1f-173265fff98d" name="Changes" comment="feat: 集成springboot">
-      <change afterPath="$PROJECT_DIR$/MBG/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/generator-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/src/main/java/mybatis/tkmappter/generator/GeneratorDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/src/main/java/mybatis/tkmappter/generator/MyCommentGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/src/main/java/org/example/my/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MBG/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/controller/PassportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/config/Swagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/example/util/JSONResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/CarouselMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/ItemsCommentsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/ItemsImgMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/ItemsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/ItemsParamMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/ItemsSpecMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/OrderItemsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/OrderStatusMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/OrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/StuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/UserAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/mapper/UsersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/java/org/example/my/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/ItemsParamMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/ItemsSpecMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/OrderItemsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/OrderStatusMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/UserAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/Carousel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/ItemsComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/ItemsImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/ItemsParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/ItemsSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/OrderItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/UserAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/bo/UserBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MBG/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MBG/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MBG/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fe84854b-48a3-4919-bd1f-173265fff98d" name="Changes" comment="feat: maybe I forgot commit the changes for a long time.">
+      <change afterPath="$PROJECT_DIR$/MBG/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MBG/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MBG/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/controller/PassportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/controller/PassportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/config/Swagger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/bo/UserBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/src/main/java/org/example/pojo/bo/UserBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -146,7 +84,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #2">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -190,12 +128,37 @@
       <workItem from="1702914979281" duration="1303000" />
       <workItem from="1703513929732" duration="1150000" />
       <workItem from="1703515192541" duration="8535000" />
-      <workItem from="1703601510751" duration="1024000" />
+      <workItem from="1703601510751" duration="1825000" />
+      <workItem from="1703689552641" duration="3617000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: maybe I forgot commit the changes for a long time.">
+      <option name="closed" value="true" />
+      <created>1703603370942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703603370942</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: maybe I forgot commit the changes for a long time." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: maybe I forgot commit the changes for a long time." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

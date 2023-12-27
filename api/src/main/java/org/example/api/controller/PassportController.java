@@ -1,7 +1,7 @@
 package org.example.api.controller;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
 import org.apache.commons.lang3.StringUtils;
 import org.example.UserService;
@@ -10,14 +10,14 @@ import org.example.pojo.bo.UserBO;
 import org.example.util.JSONResult;
 import org.springframework.web.bind.annotation.*;
 
-@Api(value = "注册相关", tags = "用户管理")
+@Tag(name = "注册", description = "注册相关")
 @RestController
 @RequestMapping("/passport")
 public class PassportController {
     @Resource
     UserService userService;
 
-    @ApiOperation(value = "检查用户名是否存在", tags = {"注册", "GET"})
+    @Operation(summary = "检查用户名是否存在")
     @GetMapping("/usernameIsExist")
     public JSONResult usernameIsExist(@RequestParam String username) {
         // 1. 判断用户名不能为空
@@ -33,7 +33,7 @@ public class PassportController {
         return JSONResult.ok();
     }
 
-    @ApiOperation(value = "注册", tags = {"注册", "POST"})
+    @Operation(summary = "注册")
     @PostMapping("/register")
     public JSONResult register(@RequestBody UserBO userBO) {
         String username = userBO.getUsername();
